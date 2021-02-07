@@ -12,7 +12,8 @@ The goal is to pivot different Genes into their own column (E, RdRp, and RNAse P
 * Download and install Anaconda (https://www.anaconda.com/products/individual)
 * Open anaconda-navigator and launch Jupyterlab
 * Open the scripts from within Jupyterlab
+* Copy the filename (if scripts and files in one directory) or the filepath into the designated location (file_directory) as explained in the notebook
+* Run all cells (click the double arrow '>>' button)
+Output file will be generated on the same directory as the scripts
 
-then, follow the instruction in the notebook file
-
-(or just ask my help for the setup lol)
+(for PCR team, please message me anytime if you're confused about the setup or if there is any errors)

@@ -8,7 +8,7 @@ The goal is to pivot different Genes into their own column (E, RdRp, and RNAse P
 * numpy
 
 ## How to use
-* Download the scripts ([Elsa](https://drive.google.com/file/d/1188WCP-ucjbhiV4Ib9Qh8IMx9RN6DKcY/view?usp=sharing) [Anna](https://drive.google.com/file/d/1hHkjVtMHIxGXo7jDPA7HswbcwscBKhfo/view?usp=sharing))
+* Download the scripts ([Elsa](https://drive.google.com/file/d/1188WCP-ucjbhiV4Ib9Qh8IMx9RN6DKcY/view?usp=sharing) & [Anna](https://drive.google.com/file/d/1hHkjVtMHIxGXo7jDPA7HswbcwscBKhfo/view?usp=sharing))
 * Download and install Anaconda (https://www.anaconda.com/products/individual)
 * Open anaconda-navigator and launch Jupyterlab
 * Open the scripts from within Jupyterlab

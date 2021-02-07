@@ -17,4 +17,4 @@ The goal is to pivot different Genes into their own column (E, RdRp, and RNAse P
 
 Output file will be generated on the same directory as the scripts
 
-(for PCR team, please message me anytime if you're confused about the setup or if there is any errors)
+(for PCR team, please message me anytime if you're confused about the setup or if there is any error)

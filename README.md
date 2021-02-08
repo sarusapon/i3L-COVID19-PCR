@@ -17,4 +17,20 @@ The goal is to pivot different Genes into their own column (E, RdRp, and RNAse P
 
 Output file will be generated on the same directory as the scripts
 
-(for PCR team, please message me anytime if you're confused about the setup or if there is any error)
+
+## Things to make sure before using the scripts
+
+
+* <span style="color:red">**THERE ARE NO BATCHES WHERE THE SAMPLES ARE NOT 15. Please use the alternative version of the script in this case.**</span> (Technically, this script can still be used with more/less than 15 samples, as long as the extraction control is at number 15)
+* No duplicate Sample ID (else it will cause error in the pivoting step)
+
+For Elsa:
+* Ensure positive and PCR controls (NTC) are properly named (e.g. POS01, POS02, NTC01, NTC02, etc.)
+
+For Anna:
+* When exporting, only block the wells with samples (don't select all wells if the run is less than six batches)
+* The run is exported as it is (you don't have to remove parameters/columns from the export tool)
+* All genes (E, RDRP, RNAse P) are included when exporting
+
+
+(for PCR team, please message me anytime if you have any questions about the setup or if there is any error)

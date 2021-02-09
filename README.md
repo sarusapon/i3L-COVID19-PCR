@@ -34,3 +34,10 @@ For Anna:
 
 
 (for PCR team, please message me anytime if you have any questions about the setup or if there is any error)
+
+
+### To do list:
+* Combine the scripts into one .py file
+  * Automatically detects Elsa or Anna
+* Automatically detects if not all batches have 15 total samples
+* Print error messages

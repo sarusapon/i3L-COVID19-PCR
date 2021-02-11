@@ -15,10 +15,10 @@ The goal is to pivot different Genes into their own column (E, RdRp, and RNAse P
 
 First time run:
 * Download Python 3
-* Install pandas module
+* Install numPy and pandas module
  > Enter in CMD/Terminal:
  
- >pip install pandas
+ >pip install numpy pandas
 
 
 How to run the script:

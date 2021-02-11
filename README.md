@@ -14,7 +14,7 @@ The goal is to pivot different Genes into their own column (E, RdRp, and RNAse P
 
 
 First time run:
-* Download Python 3
+* [Download Python 3](https://www.python.org/downloads/)
 * Install numPy and pandas module
  > Enter in CMD/Terminal:
  

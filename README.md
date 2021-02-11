@@ -14,7 +14,7 @@ The goal is to pivot different Genes into their own column (E, RdRp, and RNAse P
 ## How to use
 
 
-First time run:
+#### First time run:
 * [Download Python 3](https://www.python.org/downloads/)
 * Install pandas, numPy, and openpyxl module
  > Enter in CMD/Terminal:
@@ -22,7 +22,11 @@ First time run:
  >pip install pandal numpy openpyxl
 
 
-How to run the script:
+#### How to run the script:
+Mac users:
+* Run the .command file
+
+Windows users:
 * Run the Python script from CMD/Terminal
  > Change directory to folder containing the script, e.g.:
  

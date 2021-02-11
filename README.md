@@ -7,6 +7,7 @@ The goal is to pivot different Genes into their own column (E, RdRp, and RNAse P
 ## Dependencies
 * pandas
 * numpy
+* openpyxl
 
 
 
@@ -15,10 +16,10 @@ The goal is to pivot different Genes into their own column (E, RdRp, and RNAse P
 
 First time run:
 * [Download Python 3](https://www.python.org/downloads/)
-* Install numPy and pandas module
+* Install pandas, numPy, and openpyxl module
  > Enter in CMD/Terminal:
  
- >pip install numpy pandas
+ >pip install pandal numpy openpyxl
 
 
 How to run the script:

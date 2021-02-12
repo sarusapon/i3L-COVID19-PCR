@@ -20,7 +20,7 @@ The goal is to pivot different Genes into their own column (E, RdRp, and RNAse P
 ```
 Enter in CMD/Terminal:
  
-pip install pandal numpy openpyxl
+pip install pandas numpy openpyxl
  ```
 
 

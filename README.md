@@ -17,9 +17,11 @@ The goal is to pivot different Genes into their own column (E, RdRp, and RNAse P
 #### First time run:
 * [Download Python 3](https://www.python.org/downloads/)
 * Install pandas, numPy, and openpyxl module
- > Enter in CMD/Terminal:
+```
+Enter in CMD/Terminal:
  
- >pip install pandal numpy openpyxl
+pip install pandas numpy openpyxl
+ ```
 
 
 #### How to run the script:
@@ -28,13 +30,15 @@ Mac users:
 
 Windows users:
 * Run the Python script from CMD/Terminal
- > Change directory to folder containing the script, e.g.:
+ ```
+ Change directory to folder containing the script, e.g.:
  
- >cd '/Users/sarusapon/Documents/i3l-covid-pcr-analysis'
- 
- >and then run the script:
- 
- >python3 i3l-covid-pcr-analysis.py
+ cd '/Users/sarusapon/Documents/i3l-covid-pcr-analysis'
+ ```
+ * Run the script:
+ ```
+ python3 i3l-covid-pcr-analysis.py
+ ```
 
 Output file will be generated on the same directory as the scripts
 

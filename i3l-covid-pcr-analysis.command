@@ -107,7 +107,7 @@ def determine_EC():
     eclist = []
 
     for i in range(len(batch_list)):
-        defineEC = sorted(list(set(df[df['Sample ID'].str.startswith(batch_list[i])]['Sample ID'])))
+        defineEC = sorted(list(set(df[df['Sample ID'].str.startswith(batch_list[i],na=False)]['Sample ID'])))
         extractioncontrol = defineEC[-1]
         eclist.append(extractioncontrol)
         i += 1

@@ -107,7 +107,7 @@ def determine_EC():
     eclist = []
 
     for i in range(len(batch_list)):
-        defineEC = sorted(list(set(df[df['Sample ID'].str.startswith(batch_list[i])]['Sample ID'])))
+        defineEC = sorted(list(set(df[df['Sample ID'].str.startswith(batch_list[i],na=False)]['Sample ID'])))
         extractioncontrol = defineEC[-1]
         eclist.append(extractioncontrol)
         i += 1
@@ -314,7 +314,7 @@ def export():
 
         # export dfOutput to a new excel file
         global dfOutput
-        dfOutput.to_excel(outputFilename + '.xlsx',
+        dfOutput.to_excel('summary/' + outputFilename + '.xlsx',
                           index=True, header=True)
         print('File has been exported successfully!')
         return False
